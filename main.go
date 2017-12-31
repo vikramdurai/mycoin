@@ -84,5 +84,5 @@ func main() {
 	fmt.Println("Blockchain =>", chain.String())
 	wg.Wait()
 	fmt.Println("Blockchain =>", chain.String())
-	bc.Save()
+	chain.Save()
 }
